@@ -1,8 +1,5 @@
 import random
 
-result = random.randint(1, 2)
+result = random.choice(['heads', 'tails'])
 
-if result % 2 == 0:
-    print('heads')
-else:
-    print('tails')
+print(result)
